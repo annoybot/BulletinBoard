@@ -7,12 +7,12 @@ Pod::Spec.new do |s|
     It has an interface similar to the cards displayed by iOS for AirPods, Apple TV configuration and NFC tag scanning.
     It has built-in support for accessibility features such as VoiceOver and Switch Control.
   DESC
-  s.homepage     = "https://github.com/alexaubry/BulletinBoard"
+  s.homepage     = "https://github.com/annoybot/BulletinBoard"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Alexis Aubry" => "hi@alexisonline.dev" }
   s.social_media_url   = "https://twitter.com/_alexaubry"
   s.ios.deployment_target = "11.0"
-  s.source       = { :git => "https://github.com/alexaubry/BulletinBoard.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/annoybot/BulletinBoard.git", :tag => s.version.to_s }
   s.source_files  = "Sources/**/*"
   s.private_header_files = "Sources/Support/**/*.h"
   s.frameworks  = "UIKit"
